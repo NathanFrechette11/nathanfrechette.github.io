@@ -1,0 +1,213 @@
+/* page général */
+
+body
+{
+    background-color: rgb(167, 255, 254);
+}
+
+header
+{
+    background-color: rgb(82, 148, 255);
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+header div nav ul
+{
+    display: flex;
+    text-align: center;
+}
+
+header div nav ul li
+{
+    position: relative;
+    padding: 10px;
+    left: 400px;
+    list-style: none;
+    margin: 0px 40px;
+}
+
+header div nav ul li:hover
+{
+    background-color: rgb(108, 194, 255);
+    color: black;
+}
+
+header div nav ul li a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header div nav ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer
+{
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer nav ul
+{
+    display: flex;
+}
+
+footer nav ul li
+{
+    position: relative;
+    padding: 10px;
+    left: 400px;
+    list-style: none;
+    margin: 0px 40px;
+}
+
+footer nav ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(103, 103, 103);
+}
+
+footer h4
+{
+    color: rgb(103, 103, 103);
+}
+
+footer p
+{
+    color: rgb(103, 103, 103);
+}
+
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+
+img.logo 
+{
+    width: 40px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/* page contacts */
+
+div.contacts
+{
+    text-align: center;
+}
+
+div.contacts a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+
+/* page a propos */
+
+img.profil
+{
+    width: 250px;
+    border-radius: 1000px;
+}
+
+div.propos
+{
+    text-align: center;
+}
+
+div.propos p
+{
+    position: relative;
+    left: 575px;
+    width: 300px;
+    font-weight: bold;
+    font-size: large;
+}
+
+div.propos i
+{
+    font-weight: lighter;
+}
+
+div.propos a
+{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+/* page projets */
+
+img.image_projets
+{
+    width: 300px;
+    max-height: 300px;
+}
+
+div.img_projets
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+h3.titre_img
+{
+    width: 300px;
+}
+
+h3.images
+{
+    font-size: 21px;
+}
+
+div.projets
+{
+    text-align: center;
+    background-color: rgb(122, 255, 255);
+    border-radius: 100px;
+    padding: 30px;
+    margin: 20px;
+}
+
+div.projets a
+{
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+    font-weight: bold;
+}
+
+/* acceuil */
+
+div.acceuil_profil
+{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+div.acceuil_profil p
+{
+    position: relative;
+    left: 575px;
+    width: 300px;
+    font-weight: bold;
+    font-size: large;
+}
+
+div.acceuil_profil a
+{
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+    font-weight: bold;
+}
